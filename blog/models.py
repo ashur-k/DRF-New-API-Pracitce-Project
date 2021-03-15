@@ -5,7 +5,7 @@ from django.utils import timezone
 
 class Category(models.Model):
     name = models.CharField(max_length=100)
-    
+
     def __str__(self):
         return self.name
 
@@ -21,7 +21,7 @@ class Post(models.Model):
         ('published', 'Published'),
     )
     
-    Category = models.ForeignKey(
+    category = models.ForeignKey(
         Category, on_delete=models.PROTECT, default=1)
     title = models.CharField(max_length=250)
     excerpt = models.TextField(null=True)
