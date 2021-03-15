@@ -1,0 +1,5 @@
+For Creating and starting virtual Environemnt
+    py -m venv venv
+    venv\Scripts\activate
+(below commands show what created and what changes are made)
+py manage.py makemigrations --dry-run --verbosity 3
