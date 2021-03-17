@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Header() {
 	const classes = useStyles();
-	return (
+	return(
 		<React.Fragment>
 			<CssBaseline />
 			<AppBar
@@ -27,6 +27,7 @@ function Header() {
 						BlogmeUp
 					</Typography>
 				</Toolbar>
+
 			</AppBar>
 		</React.Fragment>
 	);

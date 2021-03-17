@@ -7,7 +7,6 @@ import App from './App';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
 const routing = (
 	<Router>
 		<React.StrictMode>
@@ -21,4 +20,5 @@ const routing = (
 );
 
 ReactDOM.render(routing, document.getElementById('root'));
-serviceWorker.unregister();
+
+
