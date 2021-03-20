@@ -7,7 +7,7 @@ py manage.py makemigrations --dry-run --verbosity 3
 pip install coverage
 coverage run --omit='*/venv/*' manage.py test
 coverage html
-
+pip install django-cors-headers
 
 React Commands:
 npx create-eact-app blogapi
@@ -15,5 +15,5 @@ cd blogapi
 npm start
 npm install react-router-dom
 npm install @material-ui/core
-pip install django-cors-headers
+
 
